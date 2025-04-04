@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higor - Meu Portfólio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        header img {
+            width: 100px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .tech-badge {
+            display: inline-block;
+            background-color: #e0f7fa;
+            color: #00796b;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            margin: 5px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: left;
+        }
+        .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .project {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 280px;
+            margin: 15px;
+            text-align: center;
+        }
+        .project img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/mnt/data/site.png" alt="Higor - Foto de Perfil">
+        <h1>Eu sou Higor</h1>
+        <p>Sou estudante de Análise e Desenvolvimento de Sistemas na UTFPR. Apaixonado por tecnologia e inovação.</p>
+        <p>Minhas habilidades:</p>
+        <span class="tech-badge">Java</span>
+        <span class="tech-badge">Python</span>
+        <span class="tech-badge">HTML5</span>
+        <span class="tech-badge">SQL</span>
+    </header>
+    
+    <div class="container">
+        <h2>Meus Projetos</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="/mnt/data/site.png" alt="Projeto 1">
+                <h3>Currículo Web</h3>
+                <p>Desenvolvido em HTML para atividade de Front-End.</p>
+                <a href="https://higorclr.github.io/Prog._Web_Front-End/" target="_blank">Ver projeto</a>
+            </div>
+            <div class="project">
+                <img src="/mnt/data/site.png" alt="Projeto 2">
+                <h3>Página Web Pessoal</h3>
+                <p>Projeto para criar uma webpage pessoal na aula de Front-End.</p>
+                <a href="https://github.com/Higorclr/Mini_Projects/blob/main/site.png" target="_blank">Ver projeto</a>
+            </div>
+        </div>
+        
+        <h2>Contato</h2>
+        <p>Entre em contato comigo para oportunidades e colaborações.</p>
+        <div class="contact">
+            <a href="mailto:higorclaro@alunos.utfpr.edu.br">E-mail</a>
+            <a href="https://github.com/higorclr" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/higorclr_" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+</body>
+</html>
 
